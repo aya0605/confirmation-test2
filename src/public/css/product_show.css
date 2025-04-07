@@ -1,0 +1,45 @@
+.product-show__container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.product-show__title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.product-show__image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.product-show__price {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.product-show__description {
+    margin-bottom: 20px;
+}
+
+.product-show__season {
+    margin-bottom: 20px;
+}
+
+.product-show__back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #333;
+}
+
+.product-show__back-button:hover {
+    background-color: #e0e0e0;
+}

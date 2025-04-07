@@ -1,0 +1,33 @@
+body {
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin: 0;
+}
+
+main {
+    width: 100%;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.header__logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 1.5em;
+    color: rgb(255, 204, 0);
+    font-style: italic;
+}
+
+
+@media (max-width: 768px) {
+}
